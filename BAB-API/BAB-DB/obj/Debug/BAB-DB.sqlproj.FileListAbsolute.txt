@@ -1,0 +1,9 @@
+D:\Personal Projects\BAB-API\BAB-DB\bin\Debug\BAB-DB.dacpac
+D:\Personal Projects\BAB-API\BAB-DB\bin\Debug\BAB_DB.dll
+D:\Personal Projects\BAB-API\BAB-DB\bin\Debug\BAB_DB.pdb
+D:\Personal Projects\BAB-API\BAB-DB\obj\Debug\BAB_DB.dll
+D:\Personal Projects\BAB-API\BAB-DB\obj\Debug\BAB_DB.pdb
+D:\Personal Projects\BAB-API\BAB-DB\obj\Debug\Model.xml
+D:\Personal Projects\BAB-API\BAB-DB\obj\Debug\refactor.xml
+D:\Personal Projects\BAB-API\BAB-DB\obj\Debug\postdeploy.sql
+D:\Personal Projects\BAB-API\BAB-DB\obj\Debug\predeploy.sql

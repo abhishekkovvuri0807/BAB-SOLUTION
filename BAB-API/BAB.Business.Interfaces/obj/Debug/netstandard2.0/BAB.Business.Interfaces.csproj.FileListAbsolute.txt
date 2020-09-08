@@ -1,0 +1,12 @@
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\bin\Debug\netstandard2.0\BAB.Business.Interfaces.deps.json
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\bin\Debug\netstandard2.0\BAB.Business.Interfaces.dll
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\bin\Debug\netstandard2.0\BAB.Business.Interfaces.pdb
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\obj\Debug\netstandard2.0\BAB.Business.Interfaces.csprojAssemblyReference.cache
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\obj\Debug\netstandard2.0\BAB.Business.Interfaces.AssemblyInfoInputs.cache
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\obj\Debug\netstandard2.0\BAB.Business.Interfaces.AssemblyInfo.cs
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\obj\Debug\netstandard2.0\BAB.Business.Interfaces.csproj.CoreCompileInputs.cache
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\obj\Debug\netstandard2.0\BAB.Business.Interfaces.dll
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\obj\Debug\netstandard2.0\BAB.Business.Interfaces.pdb
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\bin\Debug\netstandard2.0\Models.DTO.dll
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\bin\Debug\netstandard2.0\Models.DTO.pdb
+D:\Personal Projects\BAB-API\BAB.Business.Interfaces\obj\Debug\netstandard2.0\BAB.Business.Interfaces.csproj.CopyComplete

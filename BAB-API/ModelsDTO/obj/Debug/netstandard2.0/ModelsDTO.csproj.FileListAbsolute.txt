@@ -1,0 +1,9 @@
+D:\Personal Projects\BAB-API\ModelsDTO\bin\Debug\netstandard2.0\ModelsDTO.deps.json
+D:\Personal Projects\BAB-API\ModelsDTO\bin\Debug\netstandard2.0\ModelsDTO.dll
+D:\Personal Projects\BAB-API\ModelsDTO\bin\Debug\netstandard2.0\ModelsDTO.pdb
+D:\Personal Projects\BAB-API\ModelsDTO\obj\Debug\netstandard2.0\ModelsDTO.csprojAssemblyReference.cache
+D:\Personal Projects\BAB-API\ModelsDTO\obj\Debug\netstandard2.0\ModelsDTO.AssemblyInfoInputs.cache
+D:\Personal Projects\BAB-API\ModelsDTO\obj\Debug\netstandard2.0\ModelsDTO.AssemblyInfo.cs
+D:\Personal Projects\BAB-API\ModelsDTO\obj\Debug\netstandard2.0\ModelsDTO.csproj.CoreCompileInputs.cache
+D:\Personal Projects\BAB-API\ModelsDTO\obj\Debug\netstandard2.0\ModelsDTO.dll
+D:\Personal Projects\BAB-API\ModelsDTO\obj\Debug\netstandard2.0\ModelsDTO.pdb

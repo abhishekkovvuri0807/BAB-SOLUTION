@@ -1,0 +1,496 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-API\\BAB-API.csproj": {}
+  },
+  "projects": {
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-API\\BAB-API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-API\\BAB-API.csproj",
+        "projectName": "BAB-API",
+        "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-API\\BAB-API.csproj",
+        "packagesPath": "C:\\Users\\kovvu\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kovvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-Business\\BAB.Business.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-Business\\BAB.Business.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\BAB.Business.Interfaces.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\BAB.Business.Interfaces.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-Business\\BAB.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-Business\\BAB.Business.csproj",
+        "projectName": "BAB.Business",
+        "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-Business\\BAB.Business.csproj",
+        "packagesPath": "C:\\Users\\kovvu\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB-Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kovvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\BAB.Business.Interfaces.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\BAB.Business.Interfaces.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\BAB.Repository.Interfaces.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\BAB.Repository.Interfaces.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository\\BAB.Repository.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository\\BAB.Repository.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\BAB.Business.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\BAB.Business.Interfaces.csproj",
+        "projectName": "BAB.Business.Interfaces",
+        "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\BAB.Business.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\kovvu\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Business.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kovvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\BAB.Repository.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\BAB.Repository.Interfaces.csproj",
+        "projectName": "BAB.Repository.Interfaces",
+        "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\BAB.Repository.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\kovvu\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kovvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository\\BAB.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository\\BAB.Repository.csproj",
+        "projectName": "BAB.Repository",
+        "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository\\BAB.Repository.csproj",
+        "packagesPath": "C:\\Users\\kovvu\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kovvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\BAB.Repository.Interfaces.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\BAB.Repository.Interfaces\\BAB.Repository.Interfaces.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj"
+              },
+              "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj": {
+                "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj",
+        "projectName": "Models.DTO",
+        "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\Models.DTO.csproj",
+        "packagesPath": "C:\\Users\\kovvu\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsDTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kovvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj",
+        "projectName": "Models.EFCore",
+        "projectPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\Models.EFCore.csproj",
+        "packagesPath": "C:\\Users\\kovvu\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Projects\\BAB-SOLUTION\\BAB-API\\ModelsEFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kovvu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

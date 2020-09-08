@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>BAB_Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BAB.Business.Interfaces\BAB.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\BAB.Repository.Interfaces\BAB.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\BAB.Repository\BAB.Repository.csproj" />
+    <ProjectReference Include="..\ModelsDTO\Models.DTO.csproj" />
+    <ProjectReference Include="..\ModelsEFCore\Models.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

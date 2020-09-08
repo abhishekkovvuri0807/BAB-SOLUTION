@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BAB.Repository.Interfaces\BAB.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\ModelsDTO\Models.DTO.csproj" />
+    <ProjectReference Include="..\ModelsEFCore\Models.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

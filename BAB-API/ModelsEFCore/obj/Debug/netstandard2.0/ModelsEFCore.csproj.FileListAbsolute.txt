@@ -1,0 +1,8 @@
+D:\Personal Projects\BAB-API\ModelsEFCore\bin\Debug\netstandard2.0\ModelsEFCore.deps.json
+D:\Personal Projects\BAB-API\ModelsEFCore\bin\Debug\netstandard2.0\ModelsEFCore.dll
+D:\Personal Projects\BAB-API\ModelsEFCore\obj\Debug\netstandard2.0\ModelsEFCore.AssemblyInfoInputs.cache
+D:\Personal Projects\BAB-API\ModelsEFCore\obj\Debug\netstandard2.0\ModelsEFCore.AssemblyInfo.cs
+D:\Personal Projects\BAB-API\ModelsEFCore\bin\Debug\netstandard2.0\ModelsEFCore.pdb
+D:\Personal Projects\BAB-API\ModelsEFCore\obj\Debug\netstandard2.0\ModelsEFCore.dll
+D:\Personal Projects\BAB-API\ModelsEFCore\obj\Debug\netstandard2.0\ModelsEFCore.pdb
+D:\Personal Projects\BAB-API\ModelsEFCore\obj\Debug\netstandard2.0\ModelsEFCore.csproj.CoreCompileInputs.cache
